@@ -1,0 +1,10 @@
+EventInitMod = 124, 168, 1153, 726, 
+EventDeclarations = 93, 126, 1122, 684, C
+EventStartup = 103, 124, 1132, 735, C
+EventMain = 73, 93, 1102, 651, C
+SystemCommandsMod = 124, 168, 1153, 726, C
+ThreadingMod = 62, 84, 1091, 642, C
+ConsoleFrm = 62, 84, 1472, 642, C, 186, 252, 1215, 810, C
+EngineConfigurationFrm = 31, 42, 1060, 600, C, 155, 210, 1184, 768, C
+MainWin = 186, 252, 1215, 810, , 155, 210, 1184, 768, C
+ViewWin = 31, 42, 992, 775, C, 62, 84, 1091, 642, C

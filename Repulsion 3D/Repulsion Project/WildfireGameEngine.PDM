@@ -1,0 +1,162 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\PopMenu Control\cPopMenu.ocx=
+C:\WINDOWS\Desktop\Current Work\Wildfire API\Wildfire API.dll=
+C:\WINDOWS\SYSTEM\SSubTmr.dll=
+C:\WINDOWS\SYSTEM\dx8vb.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\windows\system\ssubtmr.dll=
+c:\windows\desktop\current work\wildfire game engine\init.ini=
+c:\windows\desktop\current work\wildfire game engine\initdevice.ini=
+c:\windows\desktop\current work\wildfire game engine\list.ini=
+c:\windows\desktop\current work\wildfire game engine\specular lighting.ini=
+c:\windows\desktop\current work\wildfire game engine\m9.x=
+c:\windows\desktop\current work\wildfire game engine\m88.x=
+c:\windows\desktop\current work\wildfire game engine\m44.x=
+c:\windows\desktop\current work\wildfire game engine\can.x=
+c:\windows\desktop\current work\wildfire game engine\56rev.x=
+c:\windows\desktop\current work\wildfire game engine\arlington 12-ga.x=
+c:\windows\system\dx8vb.dll=
+c:\windows\desktop\current work\wildfire game engine\flame.x=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Wildfire Game Engine.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire API\Wildfire API.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\PopMenu Control\cPopMenu.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\SSubTmr.dll=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Init.ini=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\InitDevice.ini=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\List.ini=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Specular Lighting.ini=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M9.X=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M88.X=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M44.X=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\CAN.x=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\56Rev.X=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Arlington 12-ga.X=Yes
+C:\WINDOWS\SYSTEM\dx8vb.dll=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Flame.x=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Wildfire Game Engine.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\Desktop\Current Work\Wildfire API\Wildfire API.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\PopMenu Control\cPopMenu.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SSubTmr.dll=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Init.ini=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\InitDevice.ini=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\List.ini=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Specular Lighting.ini=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M9.X=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M88.X=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M44.X=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\CAN.x=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\56Rev.X=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Arlington 12-ga.X=$(AppPath)
+C:\WINDOWS\SYSTEM\dx8vb.dll=$(AppPath)
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Flame.x=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\PopMenu Control\cPopMenu.ocx=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Init.ini=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\InitDevice.ini=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\List.ini=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M9.X=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M88.X=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\M44.X=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\CAN.x=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\56Rev.X=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Arlington 12-ga.X=No
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Wildfire Game Engine.exe=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire API\Wildfire API.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\SSubTmr.dll=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Specular Lighting.ini=No
+C:\WINDOWS\SYSTEM\dx8vb.dll=Yes
+C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Flame.x=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Wildfire Game Engine
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Package
+ProjectFolder=C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Current Work\Wildfire Game Engine\Package\Wildfire Game Engine.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Wildfire Game Engine
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Wildfire Game Engine]
+Icon1="Wildfire Game Engine.exe"
+Title1=Wildfire Game Engine
+StartIn1=$(AppPath)
+Key1=Icon1

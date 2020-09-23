@@ -1,0 +1,53 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\System32\stdole2.tlb#OLE Automation
+Reference=*\G{A95408AE-A988-4B89-925B-FB109AFAA135}#1.0#0#..\..\Event API\Event API.dll#Event API
+Reference=*\G{86998B00-9081-4374-8985-7D6865D7C000}#1.0#0#..\Repulsion\Repulsion 3D.dll#Repulsion 3D
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; mscomctl.ocx
+Object={86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCT2.OCX
+Module=EventInitMod; EventInitMod.bas
+Module=EventDeclarations; EventDeclarations.bas
+Module=EventStartup; EventStartup.bas
+Module=EventMain; EventMain.bas
+Module=SystemCommandsMod; SystemCommandsMod.bas
+Module=ThreadingMod; ThreadingMod.bas
+Form=ConsoleFrm.frm
+Form=EngineConfigurationFrm.frm
+Form=MainWin.frm
+Form=ViewWin.frm
+IconForm="EngineConfigurationFrm"
+Startup="Sub Main"
+HelpFile=""
+Title="Event Game Engine"
+ExeName32="Event Game Engine.exe"
+Command32=""
+Name="EventGameEngine"
+HelpContextID="0"
+Description="Event Game Engine"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="SPECTRE"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=-1
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=EngineConfigurationFrms
